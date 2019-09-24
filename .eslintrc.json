@@ -1,0 +1,9 @@
+{
+  "parserOptions": { "sourceType": "script", "ecmaVersion": 2019 },
+  "plugins": ["prettier"],
+  "extends": ["plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "curly": ["error", "all"]
+  }
+}
